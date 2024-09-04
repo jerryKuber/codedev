@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar section */
+.navbar{
+    background-color: rgb(178, 66, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 80px;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 10px
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Banner section */
+
+.banner{
+    background-image: url(../image/basket.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.banner-text h1{
+    font-size: 84px;
+    color: rgb(120, 42, 6);
+}
+
+.banner-text p{
+    text-align: justify;
+    color: rgb(165, 87, 42);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.butncss{
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: rgb(165, 99, 42);
+    color: white;
+}
+
+/* story section */
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 80px;
+}
+.story-left img{
+    width: 90%;
+}
+.story-right{
+    width: 50%;
+
+}
+.story-right p:first-child{
+    color: rgb(207, 117, 26);
+    margin-bottom: 20px;
+}
+.story-care{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.story-lorem{
+    margin-bottom: 20px;
+}
+.story-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* handmade section */
+
+.handmade{
+    text-align: center;
+}
+.handmade-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.handmade-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.handmade-content-left h1{
+    text-align: left;
+}
+.handmade-content-left-boxparent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+}
+.handmade-content-right img{
+    width: 50%;
+}
+.handmade-content-left-box{
+    height: 300px;
+    width: 200px;
+}
+.handmade-content-left-box img{
+    height: 200px;
+    width: 200px;
+}
+.handmade-content-left-box p{
+    text-align: left;
+}
